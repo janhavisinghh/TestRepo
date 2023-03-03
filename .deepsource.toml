@@ -1,56 +1,54 @@
 version = 1
 
 [[analyzers]]
-name = "shell"
-enabled = true
+name = "csharp"
+
+[[analyzers]]
+name = "rust"
+
+  [analyzers.meta]
+  msrv = "stable"
 
 [[analyzers]]
 name = "scala"
-enabled = true
-
-[[analyzers]]
-name = "ruby"
-enabled = true
-
-[[analyzers]]
-name = "python"
-enabled = true
-
-  [analyzers.meta]
-  runtime_version = "3.x.x"
 
 [[analyzers]]
 name = "php"
-enabled = true
-
-[[analyzers]]
-name = "javascript"
-enabled = true
 
 [[analyzers]]
 name = "java"
-enabled = true
 
   [analyzers.meta]
   runtime_version = "11"
 
 [[analyzers]]
-name = "rust"
-enabled = true
+name = "shell"
+
+[[analyzers]]
+name = "javascript"
 
   [analyzers.meta]
-  msrv = "1.30.0"
+  plugins = [
+    "vue",
+    "react",
+    "ember",
+    "angularjs"
+  ]
+
+[[analyzers]]
+name = "ruby"
 
 [[analyzers]]
 name = "go"
-enabled = true
 
   [analyzers.meta]
-  import_root = "github.com/deepsourcelabs/Gigarepo"
+  import_root = "github.com/janhavisinghh/TestRepo"
 
 [[analyzers]]
-name = "csharp"
-enabled = true
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
 [[analyzers]]
-name = "secrets"
-enabled = true
+name = "sql"
