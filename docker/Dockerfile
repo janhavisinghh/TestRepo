@@ -33,7 +33,7 @@ USER guest
 # Note: The official Debian and Ubuntu images automatically ``apt-get clean``
 # after each ``apt-get``
 
-FROM alpine
+FROM alpine:3.18.3
 
 USER root
 
